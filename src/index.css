@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Lora", Georgia, serif;
+  
+  --color-brand-green: #2d5a27;
+  --color-brand-green-light: #4A7C43;
+  --color-brand-green-dark: #1b3a17;
+  --color-brand-earth: #b45309;
+  --color-brand-earth-light: #d97706;
+  --color-brand-earth-dark: #78350F;
+  --color-brand-blue: #1E40AF;
+  --color-brand-blue-light: #3B82F6;
+  --color-brand-charcoal: #0f140e;
+  --color-brand-charcoal-light: #141a13;
+  --color-brand-cream: #f5f2ed;
+  --color-brand-sand: #141a13;
+}
+
+/* Base resets & custom scrollbar */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f140e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d5a27;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A7C43;
+}
+
+/* Dynamic glow effect */
+.glow-on-hover:hover {
+  box-shadow: 0 0 15px rgba(45, 90, 39, 0.4);
+}
+
+.earth-glow:hover {
+  box-shadow: 0 0 15px rgba(180, 83, 9, 0.4);
+}

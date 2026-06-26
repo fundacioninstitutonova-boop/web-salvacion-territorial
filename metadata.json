@@ -1,0 +1,6 @@
+{
+  "name": "Salvación Territorial",
+  "description": "Página oficial de Salvación Territorial y su Escuela Itinerante de Gestión del Riesgo Pluvial en Soacha. Soluciones basadas en la naturaleza y resiliencia comunitaria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
